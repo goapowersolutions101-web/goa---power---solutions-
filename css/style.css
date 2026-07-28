@@ -114,3 +114,49 @@ transition:.3s;
 transform:scale(1.1);
 background:#20ba5a;
 }
+
+/* ===== Navigation Bar ===== */
+
+.navbar{
+background:#111 !important;
+}
+
+.navbar-brand h3{
+letter-spacing:1px;
+}
+
+.navbar-brand small{
+font-size:14px;
+}
+
+.navbar-nav .nav-link{
+color:#fff !important;
+margin-left:10px;
+padding:8px 14px;
+border-radius:6px;
+transition:all .3s ease;
+}
+
+.navbar-nav .nav-link:hover{
+background:#FFD700;
+color:#111 !important;
+box-shadow:0 0 12px rgba(255,215,0,.7);
+}
+
+.navbar-nav .nav-link.active{
+background:#FFD700;
+color:#111 !important;
+box-shadow:0 0 15px rgba(255,215,0,.8);
+}
+
+.btn-success{
+border-radius:25px;
+padding:8px 18px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn-success:hover{
+transform:scale(1.08);
+box-shadow:0 0 15px rgba(37,211,102,.7);
+}
