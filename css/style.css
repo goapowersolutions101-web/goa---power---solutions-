@@ -207,3 +207,20 @@ font-size:55px;
 .carousel-caption p{
 font-size:20px;
 }
+
+
+/* ===== Statistics Section ===== */
+
+.stats-section{
+background:#111;
+color:#fff;
+}
+
+.stats-section h2{
+font-size:50px;
+}
+
+.stats-section h5{
+color:#FFD700;
+font-weight:bold;
+}
