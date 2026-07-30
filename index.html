@@ -10,7 +10,7 @@
 <title>GOA Power Solutions | Electrical, Solar & CCTV Experts</title>
 
 <meta name="description"
-content="GOA Power Solutions provides professional Electrical Installation, Solar Installation, Inverter Installation, CCTV Camera Installation, Satellite Installation, POP Lighting, Chandelier an[...[...]">
+content="GOA Power Solutions provides professional Electrical Installation, Solar Installation, Inverter Installation, CCTV Camera Installation, Satellite Installation, POP Lighting, Chandelier an[...]">
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -531,6 +531,28 @@ GOA POWER SOLUTIONS
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+document.getElementById("quoteForm").addEventListener("submit", function(e){
+ e.preventDefault();
+
+ const name = document.getElementById("name").value;
+ const phone = document.getElementById("phone").value;
+ const email = document.getElementById("email").value;
+ const service = document.getElementById("service").value;
+ const details = document.getElementById("details").value;
+
+ const message =
+ `*NEW QUOTE REQUEST*%0A%0A` +
+ `*Name:* ${name}%0A` +
+ `*Phone:* ${phone}%0A` +
+ `*Email:* ${email}%0A` +
+ `*Service:* ${service}%0A` +
+ `*Project Details:* ${details}`;
+
+ window.open(`https://wa.me/2348133166230?text=${message}`, "_blank");
+});
+</script>
 
 </body>
 </html>
